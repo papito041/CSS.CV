@@ -1,10 +1,84 @@
 body {
     text-align: center;
-  
+
     font-family: 'Merriweather', serif;
     ;
 
 }
+
+
+
+/*Title*/
+.navbar-top {
+    background-color: aquamarine;
+}
+
+.title-li {
+    margin-inline-end: 60px;
+    font-size: 1.5rem;
+}
+
+
+@media (max-width:989px) {
+    .title-btn {
+        margin: 0 auto;
+
+    }
+
+    .title-ul {
+        margin: 0 auto;
+    }
+}
+
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #66BFBF;
+}
+
+
+
+/*Images*/
+
+#left-cloud {
+    position: absolute;
+    top: 460px;
+    left: 300px;
+}
+
+#right-cloud {
+    position: absolute;
+    top: 400px;
+    right: 300px;
+}
+
+.mountain-img {
+    width: 60%;
+}
+
+
+
+/*Me*/
+
+.middle-container {
+    padding: 5%;
+}
+
+.text-me {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.5;
+    font-size: 1.5rem;
+}
+
+
+
+
+
 
 
 h1 {
@@ -15,7 +89,7 @@ h1 {
     font-size: 90px;
     color: rgb(4, 52, 58);
     line-height: 2;
-   
+
 
 
 }
@@ -23,23 +97,25 @@ h1 {
 h2 {
     font-family: 'Montserrat Alternates', sans-serif;
     color: rgb(11, 30, 117);
-    
-   
+
+
 }
 
 h3 {
     display: inline-block;
     font-family: 'Montserrat Alternates', sans-serif;
-    color:#66BFBF;
-   
+    color: darkcyan;
+
+
 }
 
 p {
     margin-block-end: 0px;
     margin-block-start: 0px;
+    color: black;
 
-  
-    
+
+
 
 
 }
@@ -49,39 +125,20 @@ body {
 }
 
 
-#middle-container {
- 
-}
 
 
 
 
-#bottom-container {}
+
 
 #top-container {
 
     background-color: aquamarine;
-}
-
-hr {
-    border-style: dashed;
-    width: 100px;
-    color: aquamarine ;
-    border-width: 5px;
+    padding-top: 10%;
 
 }
 
-#left-cloud {
-    position: absolute;
-    top: 360px;
-    left: 300px;
-}
 
-#right-cloud {
-    position: absolute;
-    top: 300px;
-    right: 300px;
-}
 
 
 
@@ -91,11 +148,6 @@ hr {
     margin-top: 0;
 }
 
-#me {
-    width: 200px;
-    height: 200px;
-   
-}
 
 .schools {
     font-size: 20px;
@@ -105,18 +157,18 @@ hr {
     width: 25%;
     float: left;
     margin-right: 30px;
-   
-  
+
+
 }
 
 #img-skill2 {
-    width:25%;
+    width: 25%;
     float: right;
     margin-left: 30px;
-  
+
 }
 
-#skill-1{
+#skill-1 {
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
@@ -124,67 +176,59 @@ hr {
 
 }
 
-#skill-2{
+#skill-2 {
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
     line-height: 2;
-   
+
 
 }
 
-button{
-    background: #3498db;
-    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
-    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-    background-image: -o-linear-gradient(top, #3498db, #2980b9);
-    background-image: linear-gradient(to bottom, #3498db, #2980b9);
-    -webkit-border-radius: 18;
-    -moz-border-radius: 18;
-    border-radius: 18px;
-    font-family: Georgia;
-    color: #ffffff;
-    font-size: 20px;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-    margin-top: 10px;
-    border-style: none;
-    
-}
 
-button:hover{
-    background: #3cb0fd;
-    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-    text-decoration: none;
-}
+#contact-me {
 
-#contact-me{
-    background-color: #66BFBF;
     margin-top: 100px;
-}
-
-#bott-text{
-    width: 50%;
-    margin: 0 auto;
-    line-height: 2;
-}
-
-.bott-img{
-    width: 5%;
-   
-}
-
-#contact-me{
     line-height: 3;
 }
 
-#top-text{
+#bott-text {
     width: 50%;
     margin: 0 auto;
-    padding: 20px;
+    line-height: 2;
+}
+
+.bott-img {
+    width: 5%;
+
+
+}
+
+
+
+
+
+
+/*Contact*/
+.contact-div {
+    background-color: aquamarine;
+    padding: 5%;
+}
+
+.contact-txt {
+    margin-bottom: 3%;
+}
+
+.contact-form {
+    padding: 3%;
+}
+
+.contact-icon {
+    color: rgb(11, 30, 117);
+    margin-inline-end: 2%;
+    margin-bottom: 10px;
+}
+
+.contact-icon:hover {
+    color: black;
 }
